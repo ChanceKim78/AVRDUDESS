@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translation>
+	<name>한국어 (Korean)</name>
+	<data>
+
+		<!-- Main form -->
+		<string name="TOOLTIP_MCU">프로그램 MCU</string>
+		<string name="TOOLTIP_PROGRAMMER">프로그래머</string>
+		<string name="TOOLTIP_PORT">COM/LPT/USB포트설정</string>
+		<string name="TOOLTIP_BAUDRATE">보레이트</string>
+		<string name="TOOLTIP_BITCLOCK">비트클럭주기（us）</string>
+		<string name="TOOLTIP_FLASHFILE">Hex파일(.hex)
+여기에 파일을 드래그&amp;드롭할 수 있습니다.</string>
+		<string name="TOOLTIP_EEPROMFILE">EEPROM파일 (.eep)
+여기에 파일을 드래그&amp;드롭할 수 있습니다.</string>
+		<string name="TOOLTIP_FORCE">검증 건너뛰기</string>
+		<string name="TOOLTIP_NOVERIFY">라이팅 후 검증 안함</string>
+		<string name="TOOLTIP_NOERASE">라이팅 전 Flash를 지우지 않고,
+EEPROM만 라이팅 합니다</string>
+		<string name="TOOLTIP_ERASEBOTH">Flash와 EEPROM 모두 지움</string>
+		<string name="TOOLTIP_NOWRITE">AVRDUDE의 디버깅에 사용되는것은 아무것도 라이팅 하지않음</string>
+		<string name="TOOLTIP_LOWFUSE">Low퓨즈</string>
+		<string name="TOOLTIP_HIGHFUSE">High퓨즈</string>
+		<string name="TOOLTIP_EXFUSE">확장퓨즈</string>
+		<string name="TOOLTIP_LOCKBITS">락 비트</string>
+		<string name="TOOLTIP_ONLYFLASH">플래시에 라이팅/읽기/검증</string>
+		<string name="TOOLTIP_ONLYEEPROM">EEPROM에 라이팅/읽기/검증</string>
+		<string name="TOOLTIP_WRITEFUSES">퓨즈 라이팅</string>
+		<string name="TOOLTIP_WRITELOCK">Lock 라이팅</string>
+		<string name="TOOLTIP_READFUSES">퓨즈 리드</string>
+		<string name="TOOLTIP_READLOCK">Lock 리드</string>
+		<string name="TOOLTIP_WRITEFUSESPROG">라이팅시 Fuse를 같이 기록</string>
+		<string name="TOOLTIP_WRITELOCKPROG">라이팅시 Lock을 같이 기록</string>
+		<string name="GO">실행</string>
+		<string name="WRITE">쓰기</string>
+		<string name="READ">읽기</string>
+		<string name="VERIFY">검증</string>
+		<string name="GRP_PROGRAMMER">프로그래머 장치(-c)</string>
+		<string name="PORT">포트(-P)</string>
+		<string name="BAUDRATE">보레이트(-b)</string>
+		<string name="BITCLOCK">비트클럭(-B)</string>
+		<string name="GRP_FLASH">플래시</string>
+		<string name="FORMAT">형식</string>
+		<string name="GRP_EEPROM">EEPROM</string>
+		<string name="GRP_OPTIONS">옵션</string>
+		<string name="FORCE">라이팅시 MCU ID무시하기(-F)</string>
+		<string name="DISVERIFY">라이팅 후 검증안함(-V)</string>
+		<string name="DISFLASHERASE">플래시 삭제 비활성화(-D)</string>
+		<string name="ERASEFLASHEEP">Flash와 EEPROM지우기(-e)</string>
+		<string name="DONOTWRITE">쓰지금지(-n)</string>
+		<string name="VERBOSITY">세부정보</string>
+		<string name="GRP_MCU">MCU(-p)</string>
+		<string name="FLASHSZ">플래시:</string>
+		<string name="EEPROMSZ">EEPROM:</string>
+		<string name="DETECT">검출</string>
+		<string name="GRP_PRESET">프리셋</string>
+		<string name="PRESETMGR">프리셋 매니저</string>
+		<string name="GRP_FUSELOCK">Fuse &amp;&amp; Lock Bit</string>
+		<string name="SETFUSES">Fuse라이팅</string>
+		<string name="FUSESETTINGS">Fuse설정</string>
+		<string name="SETLOCK">Lock라이팅</string>
+		<string name="BITSELECTOR">Fuse / Lock bit 선택</string>
+		<string name="DOPROGRAM">MCU 라이팅 시작!</string>
+		<string name="DOSTOP">중지</string>
+		<string name="BTN_OPTIONS">옵션</string>
+		<string name="GRP_ADDCMDARGS">추가 명령줄</string>
+		<string name="MCUNOTFOUND">MCU '{0}' 를 찾을 수 없습니다.</string>
+		<string name="PROGNOTFOUND">장치 '{0}' 를 찾을 수 없습니다</string>
+		<string name="STATUSRUNNING">AVRDUDE가 실행중입니다.</string>
+		<string name="STATUSREADY">준비완료</string>
+		<string name="DETECTSUCCESS">검출 {0} = {1}</string>
+		<string name="DETECTFAIL">MCU을 찾을 수 없습니다</string>
+		<string name="AVRDUDEKILLED">AVRDUDE 강제중지!</string>
+		<string name="ABOUT">About</string>
+		<string name="SELECTPROG">장치를 선택하세요...</string>
+		<string name="SELECTMCU">MCU선택...</string>
+		<string name="FUSELOCKREADFAIL">Fuse/Lock bit를 읽을 수 없습니다</string>
+		<string name="READINGFUSES">Fuse bit읽는 중...</string>
+		<string name="READINGLOCKBITS">Lock bit읽는 중...</string>
+		<string name="WRITINGINGFUSES">Writing fuses...</string>
+		<string name="WRITINGINGLOCKBITS">Writing lock bits...</string>
+		<string name="READHFUSE">High Fuse를 읽음</string>
+		<string name="READLFUSE">Low Fuse를 읽음</string>
+		<string name="READEFUSE">확장 Fuse를 읽음</string>
+		<string name="READFUSE">Fuse를 읽음</string>
+		<string name="READLOCKBITS">Lock bit를 읽음</string>
+		<string name="NOSUPPORTEDFUSES">{0} 는 Fuse가 지원되지 않습니다.</string>
+
+		<string name="UPDATE_CHECK">업데이트 확인...</string>
+		<string name="UPDATE_FAILED">업데이트 실패: {0}</string>
+		<string name="UPDATE_AVAIL">새 업데이트: v{0}</string>
+		<string name="UPDATE_LATEST">최신버전을 사용중입니다 :)</string>
+		<string name="UPDATE_SKIP">{0} 업데이트 무시</string>
+		<string name="UPDATE_BADXML">업데이트XML에 릴리스 정보가 없습니다</string>
+
+		<string name="FILEFMT_AUTO">자동 (쓰기만가능)</string>
+		<string name="FILEFMT_HEX">Intel Hex</string>
+		<string name="FILEFMT_SREC">Motorola S-record</string>
+		<string name="FILEFMT_BIN">Raw 바이너리</string>
+		<string name="FILEFMT_DECR">10진수 (읽기전용)</string>
+		<string name="FILEFMT_HEXR">16진수 (읽기전용)</string>
+		<string name="FILEFMT_BINR">바이너리 (읽기전용</string>
+
+		<string name="BROWSE_OPEN_FLASH">flash파일 열기</string>
+		<string name="BROWSE_SAVE_FLASH">flash파일 저장</string>
+		<string name="BROWSE_OPEN_EEPROM">EEPROM파일 열기</string>
+		<string name="BROWSE_SAVE_EEPROM">EEPROM파일 저장</string>
+		<string name="BROWSE_FILTER_ALL">모든파일(*.*)</string>
+		<string name="BROWSE_FILTER_HEX">Hex파일(*.hex)</string>
+		<string name="BROWSE_FILTER_EEP">EEPROM파일(*.eep)</string>
+
+		<!-- Preset manager form -->
+		<string name="TITLE_PRESETMGR">프리셋 매니저</string>
+		<string name="RENAME">이름변경</string>
+		<string name="OVERWRITE">덮어쓰기</string>
+		<string name="SAVENEWPRESET">새 프리셋 저장...</string>
+		<string name="EXPORT">내보내기</string>
+		<string name="IMPORT">가져오기</string>
+		<string name="DELETE">삭제</string>
+		<string name="CLOSE">닫기</string>
+		<string name="EXPORTIMGPORTDELETE">내보내기/가져오기/삭제</string>
+		<string name="SAVEDIALOG_EXPORT">프리셋 내보내기</string>
+		<string name="OPENDIALOG_IMPORT">프리셋 가져오기</string>
+		<string name="NEWPRESETNAME">새 프리셋 이름</string>
+		<string name="CANTUSEDEFAULT">'Default'의 이름은 사용할 수 없습니다</string>
+		<string name="OVERWRITEPRESET">'{0}' 에 덮어쓰겠습니까?</string>
+		<string name="DELETEPRESETS">프리셋 {0} 을 삭제하겠습니까?</string>
+		<string name="PRESETALREADYEXISTS">이름 중복, 덮어쓰겠습니까?</string>
+		<string name="CANTOVERWRITEDEFAULT">「기본」을 덮어쓸 수 없습니다</string>
+		<string name="PRESETOVERWRITE">현재설정에서 '{0}'을 덮어쓰겠습니까？</string>
+		<string name="EXPORTINGPRESETS">내보내는 중 '{0}'...</string>
+		<string name="EXPORTCOMPLETE">내보내기 완료</string>
+		<string name="IMPORTINGPRESETS">가져오는 중 '{0}'...</string>
+		<string name="IMPORTALREADYEXISTS">'{0}'는 이미 존재하며'{1}'로 이름으로 변경합니다</string>
+		<string name="IMPORTCOMPLETE">프리셋 가져오기 완료</string>
+
+		<!-- Update form -->
+		<string name="UPDATEAVAILABLE">업데이트 가능</string>
+		<string name="CURRENTVERSION">현재버전:</string>
+		<string name="NEWVERSION">새버전:</string>
+		<string name="BTN_UPDATE">업데이트</string>
+		<string name="BTN_SKIPVERSION">이 버전 건너뛰기</string>
+		<string name="BTN_LATER">나중에</string>
+
+		<!-- Fuse editor form -->
+		<string name="TITLE_FUSEANDLOCKBITS">Fuse &amp; Lock bit: {0} ({1})</string>
+		<string name="ERRORLOADFUSES">Fuse 읽기에 실패했습니다:
+{0}</string>
+		<string name="UNSUPPMCU">경고: 지원되지 않는 MCU입니다</string>
+		<string name="GRP_LOCKBITS">Lock bit</string>
+		<string name="GRP_FUSEBITS">Fuse bit</string>
+		<string name="LOCKBITS">Lock bit</string>
+
+		<!-- Options form -->
+		<string name="TITLE_OPTIONS">옵션</string>
+		<string name="GRP_FILELOCATIONS">파일위치(공백자동검출）</string>
+		<string name="GRP_OTHER">기타</string>
+		<string name="GRP_HIDEPROGS">프로그래머 숨기기</string>
+		<string name="GRP_HIDEMCUS">MCU 숨기기</string>
+		<string name="LANGUAGE">언어</string>
+		<string name="SHOWTOOLTIPS">툴팁 표시</string>
+		<string name="USEPREVSETTINGS">구동시 이전설정 가져오기</string>
+		<string name="AVRDUDE_LOCATION">avrdude폴더위치</string>
+		<string name="AVRDUDECONF_LOCATION">avrdude.conf폴더위치</string>
+		<string name="AVRSIZE_LOCATION">avr-size폴더위치</string>
+		<string name="CHECKFORUPDATES">구동시 업데이트 확인</string>
+		<string name="CHK_UNCHK_ALL">Check/uncheck all</string>
+
+		<!-- General stuff -->
+		<string name="OK">OK</string>
+		<string name="CANCEL">취소</string>
+		<string name="ERRORUC">에러</string>
+		<string name="WARNINGUC">경고</string>
+		<string name="SUCCESSUC">성공</string>
+		<string name="ERROR">에러</string>
+		<string name="WARNING">경고</string>
+		<string name="NOTICE">알림</string>
+		<string name="CONFIRM">확인</string>
+
+		<!-- Errors and things -->
+		<string name="XMLWRITEERROR">{0} 을 저장에 오류가 발생했습니다.:
+{1}</string>
+		<string name="XMLCOPYERROR">{0} 템플릿을 AppData에 저장하지 못했습니다:
+{1}</string>
+		<string name="EXECMISSING">{0} 이 없습니다！</string>
+		<string name="EXECFAIL">프로세스를 시작할 수 없습니다: {0}</string>
+		<string name="UNKNOWNSIG">서명오류 {0}</string>
+		<string name="AVRCONFMISSING">{0} 이 없습니다！</string>
+		<string name="AVRCONFREADERROR">{0} 을 읽을 수 없습니다:
+{1}</string>
+
+	</data>
+</translation>
